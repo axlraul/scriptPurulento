@@ -8,7 +8,7 @@ declare -i p=1
 
 clear
 
-for (( j=1; j<10; j++ ))
+for (( j=1; j<25; j++ ))
 do
         for i in "${dibujo[@]}"
         do
@@ -25,7 +25,7 @@ do
         done
 
         p=1
-        sleep 0.5
+        sleep 0.1
         clear
 
 
@@ -44,7 +44,7 @@ do
         done
 
         p=1
-        sleep 0.5
+        sleep 0.1
         clear
 done
 
